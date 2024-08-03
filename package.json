@@ -1,0 +1,14 @@
+{
+  "name": "shortcuts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "kodict:start": "bun kodict/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
